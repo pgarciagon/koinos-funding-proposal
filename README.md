@@ -14,7 +14,7 @@ The current proposal commits three hours per week. Read the [formatted proposal]
 
 1. Create a folder under `proposals/` named `YYYY-MM-topic`, using the proposed funding start month and a short topic.
 2. Copy [the proposal template](templates/PROPOSAL_EN.md) into that folder and replace every placeholder.
-3. Add `SUBMISSION_EN.txt` with the same scope, budget, dates, and delivery commitments in plain text. Include a full GitHub URL to that folder's formatted proposal near the beginning.
+3. Add `SUBMISSION_EN.txt` as a plain-text summary of at most 1,000 characters, including its full GitHub URL. Keep the scope, budget, dates, and commitments consistent with the formatted proposal. Preserve a full plain-text edition separately as `FULL_PROPOSAL_EN.txt` when useful.
 4. Add a short `README.md` recording the status, proposed dates, amount, and links to both versions. Add a row to the index above.
 5. Before submission, check both versions agree, refresh the conversion and fees, and confirm the beneficiary and dates. See the [KFS submission notes](docs/KFS_SUBMISSION.md).
 

@@ -19,8 +19,9 @@
 The dates are proposed. The KOIN amount uses the USD 0.018 budgeting reference recorded in the proposal and rounds the monthly request to 34,000 KOIN. Refresh the conversion and verify the payment period and submission fee before signing.
 
 - [Formatted proposal and supporting references](PROPOSAL_EN.md)
-- [Plain-text description to copy into KFS](SUBMISSION_EN.txt)
+- [Short plain-text description to copy into KFS](SUBMISSION_EN.txt)
+- [Full plain-text proposal for reading](FULL_PROPOSAL_EN.txt)
 - [KFS format verification and submission notes](../../docs/KFS_SUBMISSION.md)
 - [All proposals](../../README.md)
 
-For the KFS description, copy the contents of `SUBMISSION_EN.txt`. Enter the title, payment, beneficiary, and dates in their separate fields. Publishing these files does not submit a blockchain transaction.
+For the KFS description, copy the contents of `SUBMISSION_EN.txt` (955 characters excluding the trailing newline). The contract source permits at most 1,000 characters; the full proposal is linked from this summary. `FULL_PROPOSAL_EN.txt` preserves the complete plain-text version and is too long for the description field. Enter the title, payment, beneficiary, and dates in their separate fields. Publishing these files does not submit a blockchain transaction.

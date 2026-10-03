@@ -34,9 +34,9 @@ My contributions span several parts of the ecosystem. The following examples dis
 
 ### Supporting Eder's work on Vortex
 
-I am supporting the outstanding work of **Eder (@ederaleng)** on the Vortex bridge between Koinos and Ethereum, helping him prepare its next version. You can find him on [Telegram](https://t.me/ederaleng) and [GitHub](https://github.com/ederaleng).
+I am supporting the outstanding work of **@ederaleng** on the Vortex bridge between Koinos and Ethereum, helping him prepare its next version. You can find him on [Telegram](https://t.me/ederaleng) and [GitHub](https://github.com/ederaleng).
 
-**Eder is the bridge's maintainer, owns its public domain, and will control the final public client and its release.** His sustained development and dedication are central to Vortex. My role is to support his work with technical review, testing, documentation, and operator tooling improvements.
+**@ederaleng is the bridge's maintainer, owns its public domain, and will control the final public client and its release.** His sustained development and dedication are central to Vortex. My role is to support his work with technical review, testing, documentation, and operator tooling improvements.
 
 - **Code review and reproducible tests.** Reviewing code, dependencies, build reproducibility, and fixes, and providing actionable findings and regression tests to support the next version.
 - **Local transfer and recovery testing.** Exercising transfers and failure scenarios in isolated development environments to help identify issues and improve reliability.

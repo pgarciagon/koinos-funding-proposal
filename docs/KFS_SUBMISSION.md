@@ -11,7 +11,17 @@ Checked October 3, 2026 against the live KFS site, including the user's open sub
 
 Use plain text and complete URLs. Markdown markers can be entered as characters, but the inspected previews do not format them. A plain URL may remain copyable text rather than a clickable link; automatic link conversion has not been established. The repository provides the formatted reading experience.
 
-This is a form and project-preview check, not an on-chain submission test or an audit of every project-detail view. No description-size guarantee is inferred from the absence of a frontend length attribute; the contract and transaction resource limits were not verified. No wallet connection, signing, or KFS submission was performed.
+This is a form and project-preview check, not an on-chain submission test or an audit of every project-detail view. The absence of a frontend length attribute does not remove the contract description limit documented below. No wallet connection, signing, or KFS submission was performed.
+
+## Contract limits and the submission failure
+
+On October 3, 2026, the [fund contract source at commit 4fc33bbe0520a77a89619da1e9e6efe98e7c423c](https://github.com/koinos/koinos-contracts-as/blob/4fc33bbe0520a77a89619da1e9e6efe98e7c423c/contracts/fund/assembly/Fund.ts#L275) was checked. `submit_project` requires a nonempty title of at most 100 characters and a nonempty description of at most 1,000 characters. The description check is at line 277. It runs before beneficiary, date, fee, or transfer checks. The accompanying error says "description must be defined and less than 1000 characters", although the comparison allows exactly 1,000.
+
+The earlier full description contained 15,563 characters excluding its trailing newline, exceeding the source limit. The KFS page logged "Error submitting project: Error: Connection lost" during the user's attempt; the exact wallet error was not available to the browser tool. The short summary removes this known validation violation, but does not establish that every transaction or wallet check will succeed.
+
+The deployed frontend fund helper in chunk `189-66586d9a3322fc25.js` uses contract `1A5BmMqV5jN5zBrdkhQumAfDZBzXLPBeN9` and `submit_project` entry point `0x3baabbbd`. A read-only `chain.read_contract` check against the public RPC was attempted and returned HTTP 403, so source-to-deployed-bytecode equivalence and an on-chain rejection were not independently confirmed. No signed transaction or submission was sent by Codex.
+
+Use an ASCII summary with room below 1,000 characters, including all URLs and line breaks. The current description is 955 characters excluding its trailing newline. Keep the full proposal in GitHub and link to it from the summary. Also check valid dates, beneficiary, current required submission fee, token-transfer authorization, balance, and Mana in the wallet; those are separate from the text limit.
 
 ## Inspected deployed assets
 
@@ -22,7 +32,7 @@ These build-specific asset URLs may change after a site update. Recheck the curr
 
 ## Preparing each proposal
 
-Keep `PROPOSAL_EN.md` as the formatted proposal and `SUBMISSION_EN.txt` as its plain-text description. Preserve the scope, budget, hours, dates, and commitments in both files; replace tables with labeled lines and Markdown links with full URLs. Put the proposal's direct GitHub URL near the start of the description.
+Keep `PROPOSAL_EN.md` as the formatted proposal, `FULL_PROPOSAL_EN.txt` as the full plain-text edition, and `SUBMISSION_EN.txt` as the short contract-compatible description. Preserve the scope, budget, hours, dates, and commitments across these versions. The short description must include the full GitHub URL within its 1,000-character limit; the full edition may use labeled lines and complete URLs instead of tables and Markdown links.
 
 The project title, monthly payment, beneficiary, and dates have their own KFS fields. The folder README records their intended values. Before signing, confirm those fields, update the market conversion, check the actual fee and funded period, and review the exact description.
 
