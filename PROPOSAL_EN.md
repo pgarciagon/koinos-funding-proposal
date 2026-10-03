@@ -1,113 +1,11 @@
-# Koinos Infrastructure Documentation and Community Maintenance
+# Koinos funding proposal
 
-**Pablo Garcia · Three month funding proposal · 32,000 KOIN per month**
+The proposal now has its own folder so this repository can contain future proposals.
 
-Koinos needs reliable infrastructure, practical tools, clear documentation, and people who help others use them. I am requesting funding to dedicate **three hours every week** to that work: maintaining community services, improving node and bridge validator tooling, keeping our website and documentation useful, and helping developers and users move forward.
+**[Read the full proposal](proposals/2026-11-infrastructure-maintenance/PROPOSAL_EN.md)**
 
-The proposed budget is approximately **USD 575 per month for three months**, paid as **32,000 native KOIN per month** at the budgeting reference of USD 0.018 per KOIN. This supports USD 325 of contributor time, USD 200 of AI development tooling, and a USD 50 infrastructure allowance. The KOIN request rounds up the calculated 31,944.44 KOIN to 32,000, equivalent to USD 576 at that reference.
+[Plain-text version for the KFS description field](proposals/2026-11-infrastructure-maintenance/SUBMISSION_EN.txt)
 
-## About me
+[All proposals and their status](README.md)
 
-My name is **Pablo Garcia**, known in the community as **@pgarcgo** and on GitHub as **pgarciagon**. I have contributed to the Koinos community since its early years, starting with Spanish language education and community support and expanding into node operations, developer tools, documentation, and protocol fixes.
-
-You can find me on the [Koinos team page](https://koinos.io/team), where I am listed as **Project Manager + Developer**, and in my [profile in the Koinos community history](https://koinos.io/history?person=person-pablo-garcia-pgarcgo#chronicle). My [GitHub profile](https://github.com/pgarciagon) provides further public references.
-
-I maintain **koinos.io**, operate **seed.koinosfoundation.org**, and manage regular blockchain backups. I am also preparing updated documentation for **docs.koinos.io**, helping users, developers, and node operators find clear, practical guidance. These responsibilities connect the public face of Koinos with the infrastructure people need to join and use the network.
-
-## Work I have contributed
-
-My contributions span several parts of the ecosystem. The following examples distinguish development, maintenance, reviews, and community work.
-
-### Infrastructure and developer tools
-
-- **Seed node operations and blockchain backups.** Operating community seed infrastructure and maintaining regular backups and recovery procedures. My [Koinos Backup Tools](https://github.com/pgarciagon/koinos-backup-tools) repository includes backup and restore scripts, checksums, metadata, and retention controls.
-- **Teleno.** Development of an [experimental native Koinos node](https://github.com/koinos/teleno) that brings node services into one C++ binary, with observer and producer operation, APIs, and backup and restore tooling. The Koinos microservice node stack remains the reference implementation.
-- **Koinos One.** Leading development of the [experimental desktop application](https://github.com/koinos/koinos-one) for operating a local Teleno node, inspecting the blockchain, and working with backups and recovery.
-- **Knodel.** Development of an experimental desktop application for the **Koinos microservice node stack**, with native macOS service management, health and log diagnostics, a local blockchain explorer, wallet integration, and backup and restore workflows. It also serves as a local validation environment for upstream synchronization and state replay fixes.
-- **Koinos Node Manager.** Developing [CLI and desktop tools for inspecting multiple nodes](https://github.com/pgarciagon/koinos-node-manager). Its implemented inspection surface is read-only; broader fleet lifecycle management remains further work.
-- **Koinos testnet and faucet.** Work on [public testnet operations, endpoint documentation, monitoring, and the Telegram faucet](https://github.com/koinos/koinos-testnet), helping developers test without using mainnet funds.
-- **kcli.** [Command line tooling](https://github.com/pgarciagon/kcli), including testnet support, token transfers, non-interactive wallet options, and producer dashboard and key tooling.
-- **Upstream synchronization fixes.** Merged contributions to [receipt persistence in chain PR 858](https://github.com/koinos/koinos-chain/pull/858), [state delta replay in chain PR 861](https://github.com/koinos/koinos-chain/pull/861), and [tombstone preservation and pending Merkle roots in state database PR 36](https://github.com/koinos/koinos-state-db-cpp/pull/36).
-- **Koinos microservice node stack maintenance.** [Service inventories and improvement proposals](https://github.com/pgarciagon/koinos_legacy_node) covering versions, dependencies, reproducibility, and operational validation.
-
-### Vortex review and validator operations
-
-Vortex connects Koinos and Ethereum. I am contributing technical review, testing, and operator tooling to help its next version move toward dependable operation. This work complements the bridge maintainers' development and release responsibilities.
-
-- **Technical review and validation.** Reviewing Vortex and V2 code, dependencies, and build reproducibility; developing reproducible tests; and independently checking fixes as the project evolves. The aim is to give maintainers actionable evidence and make deployment decisions better informed.
-- **Validator administration and recovery.** Developing a private operator interface and supporting tools for service health, validator lifecycle, encrypted key handling, manual unlock, updates, and recovery. I have exercised these workflows in isolated development environments and am preparing a dedicated validator host.
-- **V2 transfer and failure rehearsals.** Testing transfers in both directions between isolated Koinos and Ethereum chains, including validator outages, restarts, administrative cancellation, and inconsistent data sources. These local rehearsals have produced useful evidence; public deployment and independent operator acceptance remain pending.
-
-**Next steps** include further review and regression tests, qualification of the client and deployment package, clearer operator instructions, and preparation for a controlled V2 experiment with newly issued test tokens. In coordination with the maintainers, my longer term goal is to operate one validator in the final bridge network after the required release review and operator acceptance. Pilot preparation also includes independently operated data sources and validator onboarding.
-
-During this funding period, Vortex will share the technical contribution allocation with the other projects in this proposal. The commitment is to deliver scoped review, testing, documentation, or operator tooling improvements as priorities allow. A public pilot or final validator activation depends on the project's readiness and approvals; local tests are not a comprehensive security certification.
-
-### Documentation and the public website
-
-- **koinos.io.** Website maintenance, ecosystem research, project listings, and Spanish localization. Public examples include [ecosystem PR 144](https://github.com/koinos/koinos-io-website/pull/144), [Koinos AI PR 145](https://github.com/koinos/koinos-io-website/pull/145), and [Spanish localization PR 146](https://github.com/koinos/koinos-io-website/pull/146).
-- **Koinos History.** Research and development of the interactive history, including the [merged website implementation](https://github.com/koinos/koinos-io-website/pull/142) and its [maintenance documentation](https://github.com/pgarciagon/koinos_history).
-- **docs.koinos.io preparation.** Work on updating and organizing the documentation for new users, developers, and node operators, including Getting Started, Node Operators, Architecture, and Resources. The updated documentation site is **in preparation**. Public references include my [merged four chapter documentation contribution](https://github.com/koinos/koinos-docs/pull/238) and the independently maintained [community documentation edition](https://github.com/pgarciagon/koinos-docs), with architecture, microservice, and operator references.
-
-### Reviews marketing and community support
-
-- **Open Social.** A [published user review with testing evidence and coverage limits](https://github.com/pgarciagon/open_social_review), conducted on Harbinger testnet.
-- **Community proposals.** [Independent comparative analysis](https://github.com/pgarciagon/koinos-proposal-analysis) of proposed changes, grounded in public sources and documented evidence.
-- **Wallets and ecosystem applications.** Wallet testing and review, and Koinos AI installation and tutorial work. These are contributions to testing, usability, and review; they do not imply ownership of other contributors' products or a comprehensive security certification.
-- **Marketing and education.** [Community communication and campaign resources](https://github.com/pgarciagon/koinos_marketing), articles, technical explanations, ecosystem discovery, and bilingual onboarding. Earlier work included the Spanish community and the now discontinued Koincast podcast.
-- **Community support.** Helping users and operators with nodes, wallets, testnet usage, backups, and troubleshooting, and turning recurring questions into reusable documentation.
-
-## What this funding will deliver
-
-This proposal funds a focused maintenance commitment across existing work. My weekly allocation will average:
-
-| Work | Hours per week |
-| --- | ---: |
-| Seed infrastructure, backups, and operational checks | 1 |
-| Prioritized node, Vortex, or validator tooling work | 1 |
-| Website and documentation maintenance | 0.5 |
-| Community support | 0.5 |
-| **Total** | **3** |
-
-Urgent service issues may change the allocation, with service continuity taking priority.
-
-Over the three month period, I will aim to deliver:
-
-1. **Continuity of seed services and regular backups**, with a weekly check of backup completion and service status, and a public summary of significant incidents.
-2. **One documented recovery rehearsal** on an isolated test target, reporting the backup used, integrity checks, result, and remaining limitations.
-3. **At least two scoped technical contributions**, such as fixes, tests, operator tooling, or reproducible investigation reports for Vortex, Teleno, Koinos One, Knodel, Node Manager, kcli, or the Koinos microservice node stack. Priorities will follow operational need; upstream acceptance is outside my control.
-4. **At least three useful website or documentation updates**, including continued preparation of docs.koinos.io, focused on accurate project information, onboarding, node operation, and recovery.
-5. **One brief update at the end of the funding period**, linking to completed work and outlining the next priorities. Progress will also remain visible through public repositories and website changes.
-
-The first month will establish the service and backup baseline and select the highest value improvement. The second will focus on the recovery rehearsal and further tooling and documentation work. The third will complete the remaining scoped contributions and share the brief closing update.
-
-Three hours per week is a bounded contribution commitment. It does not include a 24 hour incident response service or promise a full release of every project listed above.
-
-## Budget and funding period
-
-| Monthly allocation | USD |
-| --- | ---: |
-| Contributor time at USD 25 per hour, averaging 13 hours per month | 325 |
-| ChatGPT Pro subscription for Codex development work | 200 |
-| Hetzner hosting, blockchain storage, backup costs, and small infrastructure expenses | 50 |
-| **Monthly budget** | **575** |
-| **Three month budget** | **1,725** |
-
-The time calculation uses three hours per week × 52 weeks ÷ 12 months. The subscription enables research, implementation, testing, documentation, and code review; I remain responsible for reviewing and validating the resulting work.
-
-The infrastructure allowance is based on my existing Hetzner server at **EUR 14.27 per month**, with **8 vCPU, 16 GB RAM, 160 GB local disk, and a separately billed 200 GB volume**. The volume estimate is EUR 8.80 per month using the EUR 0.044 per GB rate displayed by [Hetzner](https://www.hetzner.com/cloud/block-storage/) when this budget was prepared. This gives approximately USD 25.90 per month before any additional taxes or services, at the [ECB reference rate of USD 1.1225 per EUR](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html) dated October 2, 2026. The USD 50 allowance leaves room for backup storage and related costs. It is an allowance, not a claim that the current invoice totals USD 50.
-
-**Proposed term:** November 1, 2026 through January 31, 2027, subject to the final KFS start and end dates.
-
-**Requested monthly payment:** 32,000 native KOIN. **Three month requested total:** 96,000 native KOIN, assuming three full monthly payments.
-
-The conversion uses **USD 0.018 per KOIN** as a budgeting reference, based on the [vKOIN and USDC market on Base](https://dexscreener.com/base/0x9b61660Cb1a6920E9c912570cD210020B956F34E) observed on October 3, 2026. That is a wrapped token market price, not a guaranteed native KOIN sale price. Exchange rates, liquidity, fees, and price movement can change the realized USD amount. The KOIN figure should be refreshed before submission and will be fixed for the submitted term unless a separate proposal changes it. KFS payments depend on votes, ranking, and available fund balance, as explained in the [KFS documentation](https://kfs.koinscan.com/docs).
-
-This request covers future work during the proposed term. The KFS submission fee is separate and will be confirmed by the form before submission.
-
-## Why support this proposal
-
-A working seed node helps another operator connect. A usable backup helps recover a service. A clear guide helps a developer get started. A practical desktop tool helps someone run their own node. Careful Vortex testing and usable validator tools help prepare the connections between Koinos and other networks. Each contribution makes Koinos easier to use and sustain.
-
-Your vote would give this work a predictable budget, a defined weekly commitment, and a public record of delivery. I bring existing responsibilities, public contributions, and continuity across infrastructure, software, documentation, and community support.
-
-**If you want Koinos to remain accessible to new users, developers, and independent node operators, I would appreciate your vote. Together, we can keep the services running and make the next contributor's first step easier.**
+This page preserves the previously shared URL. The current proposal requests 32,000 KOIN per month for three months and commits three hours per week. It remains a draft pending submission to KFS.
