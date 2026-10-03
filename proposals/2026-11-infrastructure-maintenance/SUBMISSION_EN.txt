@@ -33,17 +33,19 @@ kcli. Command line tooling (https://github.com/pgarciagon/kcli), including testn
 Upstream synchronization fixes. Merged contributions to receipt persistence in chain PR 858 (https://github.com/koinos/koinos-chain/pull/858), state delta replay in chain PR 861 (https://github.com/koinos/koinos-chain/pull/861), and tombstone preservation and pending Merkle roots in state database PR 36 (https://github.com/koinos/koinos-state-db-cpp/pull/36).
 Koinos microservice node stack maintenance. Service inventories and improvement proposals (https://github.com/pgarciagon/koinos_legacy_node) covering versions, dependencies, reproducibility, and operational validation.
 
-VORTEX REVIEW AND VALIDATOR OPERATIONS
+SUPPORTING EDER'S WORK ON VORTEX
 
-Vortex connects Koinos and Ethereum. I am contributing technical review, testing, and operator tooling to help its next version move toward dependable operation. This work complements the bridge maintainers' development and release responsibilities.
+I am supporting the outstanding work of Eder (@ederaleng) on the Vortex bridge between Koinos and Ethereum, helping him prepare its next version. You can find him on Telegram (https://t.me/ederaleng) and GitHub (https://github.com/ederaleng).
 
-Technical review and validation. Reviewing Vortex and V2 code, dependencies, and build reproducibility; developing reproducible tests; and independently checking fixes as the project evolves. The aim is to give maintainers actionable evidence and make deployment decisions better informed.
-Validator administration and recovery. Developing a private operator interface and supporting tools for service health, validator lifecycle, encrypted key handling, manual unlock, updates, and recovery. I have exercised these workflows in isolated development environments and am preparing a dedicated validator host.
-V2 transfer and failure rehearsals. Testing transfers in both directions between isolated Koinos and Ethereum chains, including validator outages, restarts, administrative cancellation, and inconsistent data sources. These local rehearsals have produced useful evidence; public deployment and independent operator acceptance remain pending.
+Eder is the bridge's maintainer, owns its public domain, and will control the final public client and its release. His sustained development and dedication are central to Vortex. My role is to support his work with technical review, testing, documentation, and operator tooling improvements.
 
-Next steps include further review and regression tests, qualification of the client and deployment package, clearer operator instructions, and preparation for a controlled V2 experiment with newly issued test tokens. In coordination with the maintainers, my longer term goal is to operate one validator in the final bridge network after the required release review and operator acceptance. Pilot preparation also includes independently operated data sources and validator onboarding.
+Code review and reproducible tests. Reviewing code, dependencies, build reproducibility, and fixes, and providing actionable findings and regression tests to support the next version.
+Local transfer and recovery testing. Exercising transfers and failure scenarios in isolated development environments to help identify issues and improve reliability.
+Documentation and operator usability. Helping improve instructions and supporting tools so that Eder's work is easier to review, test, and use.
 
-During this funding period, Vortex will share the technical contribution allocation with the other projects in this proposal. The commitment is to deliver scoped review, testing, documentation, or operator tooling improvements as priorities allow. A public pilot or final validator activation depends on the project's readiness and approvals; local tests are not a comprehensive security certification.
+I plan to continue supporting the next version through scoped contributions aligned with Eder's priorities. Vortex will share the technical contribution allocation with the other projects in this proposal.
+
+I also encourage Eder to submit his own KFS proposal to fund the substantial hours and dedication he is investing in Vortex. His work deserves recognition and sustainable support, and funding my supporting contributions should complement that recognition.
 
 DOCUMENTATION AND THE PUBLIC WEBSITE
 
@@ -56,6 +58,7 @@ REVIEWS MARKETING AND COMMUNITY SUPPORT
 Open Social. A published user review with testing evidence and coverage limits (https://github.com/pgarciagon/open_social_review), conducted on Harbinger testnet.
 Community proposals. Independent comparative analysis (https://github.com/pgarciagon/koinos-proposal-analysis) of proposed changes, grounded in public sources and documented evidence.
 Wallets and ecosystem applications. Wallet testing and review, and Koinos AI installation and tutorial work. These are contributions to testing, usability, and review; they do not imply ownership of other contributors' products or a comprehensive security certification.
+Official Spanish communication channels. I manage the official Koinos Spanish X/Twitter account (@koinos_espaniol, https://x.com/koinos_espaniol) and the official Spanish Telegram community (@koinoshispano, https://t.me/koinoshispano), sharing updates, supporting the community, and making Koinos accessible to Spanish speakers.
 Marketing and education. Community communication and campaign resources (https://github.com/pgarciagon/koinos_marketing), articles, technical explanations, ecosystem discovery, and bilingual onboarding. Earlier work included the Spanish community and the now discontinued Koincast podcast.
 Community support. Helping users and operators with nodes, wallets, testnet usage, backups, and troubleshooting, and turning recurring questions into reusable documentation.
 
