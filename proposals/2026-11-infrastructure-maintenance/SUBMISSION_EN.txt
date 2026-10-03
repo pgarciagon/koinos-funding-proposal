@@ -5,6 +5,6 @@ I request 34,000 KOIN/month for Nov 2026-Jan 2027: 3 hours/week at USD 25/hour, 
 For Vortex, I support @ederaleng, its maintainer, public domain owner and final public client lead. I plan to run one validator and its private Koinos API (CPX32 EUR 16.65 + CX23 EUR 6.53/month), subject to release readiness. I encourage Eder and other contributors to seek KFS funding.
 
 Full proposal, deliverables, budget and references:
-https://github.com/pgarciagon/koinos-funding-proposal/blob/main/proposals/2026-11-infrastructure-maintenance/PROPOSAL_EN.md
+https://github.com/pgarciagon/koinos-funding-proposal/releases/tag/proposal-2026-11-v1.0.0
 
 One brief closing update.

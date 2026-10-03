@@ -8,7 +8,7 @@ Public proposals for Koinos infrastructure, developer tools, documentation, Vort
 | --- | --- | ---: | --- |
 | [Infrastructure, documentation, and community maintenance](proposals/2026-11-infrastructure-maintenance/) | November 2026–January 2027 | 34,000 KOIN | Draft; not submitted to KFS |
 
-The current proposal commits three hours per week. Read the [formatted proposal](proposals/2026-11-infrastructure-maintenance/PROPOSAL_EN.md) or copy the [plain-text description](proposals/2026-11-infrastructure-maintenance/SUBMISSION_EN.txt) for the KFS form. The description includes a direct URL to the formatted proposal.
+The current proposal commits three hours per week. Read the [formatted proposal](proposals/2026-11-infrastructure-maintenance/PROPOSAL_EN.md) or copy the [plain-text description](proposals/2026-11-infrastructure-maintenance/SUBMISSION_EN.txt) for the KFS form. The description includes a URL to the frozen [proposal-2026-11-v1.0.0](https://github.com/pgarciagon/koinos-funding-proposal/releases/tag/proposal-2026-11-v1.0.0) release, whose attached proposal files are the fixed reference.
 
 ## Adding a future proposal
 
@@ -16,7 +16,7 @@ The current proposal commits three hours per week. Read the [formatted proposal]
 2. Copy [the proposal template](templates/PROPOSAL_EN.md) into that folder and replace every placeholder.
 3. Add `SUBMISSION_EN.txt` as a plain-text summary of at most 1,000 characters, including its full GitHub URL. Keep the scope, budget, dates, and commitments consistent with the formatted proposal. Preserve a full plain-text edition separately as `FULL_PROPOSAL_EN.txt` when useful.
 4. Add a short `README.md` recording the status, proposed dates, amount, and links to both versions. Add a row to the index above.
-5. Before submission, check both versions agree, refresh the conversion and fees, and confirm the beneficiary and dates. See the [KFS submission notes](docs/KFS_SUBMISSION.md).
+5. Before submission, check the versions agree, refresh the conversion and fees, and confirm the beneficiary and dates. Freeze the final files in a new immutable release and use that versioned release URL in the summary. See the [KFS submission notes](docs/KFS_SUBMISSION.md).
 
 Keep previous proposal folders and their links available. Once a proposal is submitted, record its KFS URL and the Git commit used for submission; distinguish later revisions from the submitted version. Do not overwrite an earlier proposal with a new funding request.
 

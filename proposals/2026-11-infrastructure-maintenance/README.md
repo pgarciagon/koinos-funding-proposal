@@ -2,7 +2,9 @@
 
 **Author:** Pablo Garcia (@pgarcgo; GitHub: pgarciagon)
 
-**Status:** Draft for community discussion; not submitted to KFS.
+**Status:** Version 1.0.0 prepared for publication; not submitted to KFS.
+
+**Frozen release:** [proposal-2026-11-v1.0.0](https://github.com/pgarciagon/koinos-funding-proposal/releases/tag/proposal-2026-11-v1.0.0). The release assets and tag are the fixed reference; later proposals or corrections require a new release.
 
 | Field | Proposed value |
 | --- | --- |
@@ -24,4 +26,4 @@ The dates are proposed. The KOIN amount uses the USD 0.018 budgeting reference r
 - [KFS format verification and submission notes](../../docs/KFS_SUBMISSION.md)
 - [All proposals](../../README.md)
 
-For the KFS description, copy the contents of `SUBMISSION_EN.txt` (955 characters excluding the trailing newline). The contract source permits at most 1,000 characters; the full proposal is linked from this summary. `FULL_PROPOSAL_EN.txt` preserves the complete plain-text version and is too long for the description field. Enter the title, payment, beneficiary, and dates in their separate fields. Publishing these files does not submit a blockchain transaction.
+For the KFS description, copy the contents of `SUBMISSION_EN.txt` (922 characters excluding the trailing newline). The contract source permits at most 1,000 characters; the frozen release is linked from this summary. `FULL_PROPOSAL_EN.txt` preserves the complete plain-text version and is too long for the description field. Enter the title, payment, beneficiary, and dates in their separate fields. Publishing these files does not submit a blockchain transaction.

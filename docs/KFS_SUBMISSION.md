@@ -21,7 +21,7 @@ The earlier full description contained 15,563 characters excluding its trailing 
 
 The deployed frontend fund helper in chunk `189-66586d9a3322fc25.js` uses contract `1A5BmMqV5jN5zBrdkhQumAfDZBzXLPBeN9` and `submit_project` entry point `0x3baabbbd`. A read-only `chain.read_contract` check against the public RPC was attempted and returned HTTP 403, so source-to-deployed-bytecode equivalence and an on-chain rejection were not independently confirmed. No signed transaction or submission was sent by Codex.
 
-Use an ASCII summary with room below 1,000 characters, including all URLs and line breaks. The current description is 955 characters excluding its trailing newline. Keep the full proposal in GitHub and link to it from the summary. Also check valid dates, beneficiary, current required submission fee, token-transfer authorization, balance, and Mana in the wallet; those are separate from the text limit.
+Use an ASCII summary with room below 1,000 characters, including all URLs and line breaks. The current description is 922 characters excluding its trailing newline. Keep the full proposal in GitHub and link to it from the summary. Also check valid dates, beneficiary, current required submission fee, token-transfer authorization, balance, and Mana in the wallet; those are separate from the text limit.
 
 ## Inspected deployed assets
 
@@ -37,3 +37,11 @@ Keep `PROPOSAL_EN.md` as the formatted proposal, `FULL_PROPOSAL_EN.txt` as the f
 The project title, monthly payment, beneficiary, and dates have their own KFS fields. The folder README records their intended values. Before signing, confirm those fields, update the market conversion, check the actual fee and funded period, and review the exact description.
 
 After a confirmed submission, record the KFS project URL and the submitted Git commit in the proposal folder README. Git history preserves the submitted text even if the working draft later changes.
+
+## Freezing a proposal for submission
+
+For the November 2026 proposal, the summary links to release `proposal-2026-11-v1.0.0`. The release contains `PROPOSAL_EN.md`, `FULL_PROPOSAL_EN.txt`, `SUBMISSION_EN.txt`, a release manifest recording the source commit, and `SHA256SUMS`.
+
+GitHub release immutability is enabled for this repository. Publish each release as a draft first, attach and verify all files, then publish it. The published tag and assets are protected from replacement. The release title and notes remain editable, so treat the attached files and the commit recorded in the manifest as the authoritative proposal. Repository availability is separate from content immutability.
+
+Keep a local copy of the release files. Later corrections must use a new version and release; retain the version already referenced by a submitted KFS proposal. A frozen GitHub release does not prove KFS submission or funding.

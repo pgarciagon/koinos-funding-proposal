@@ -1,7 +1,7 @@
 Pablo Garcia · Three month funding proposal · 34,000 KOIN per month
 
 Full formatted proposal, public contribution references, and funding details:
-https://github.com/pgarciagon/koinos-funding-proposal/blob/main/proposals/2026-11-infrastructure-maintenance/PROPOSAL_EN.md
+https://github.com/pgarciagon/koinos-funding-proposal/blob/proposal-2026-11-v1.0.0/proposals/2026-11-infrastructure-maintenance/PROPOSAL_EN.md
 
 Koinos needs reliable infrastructure, practical tools, clear documentation, and people who help others use them. I am requesting funding to dedicate three hours every week to that work: maintaining community services, improving node and bridge validator tooling, keeping our website and documentation useful, and helping developers and users move forward.
 
