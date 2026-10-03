@@ -1,10 +1,10 @@
 # Koinos Infrastructure Documentation and Community Maintenance
 
-**Pablo Garcia · Three month funding proposal · 32,000 KOIN per month**
+**Pablo Garcia · Three month funding proposal · 34,000 KOIN per month**
 
 Koinos needs reliable infrastructure, practical tools, clear documentation, and people who help others use them. I am requesting funding to dedicate **three hours every week** to that work: maintaining community services, improving node and bridge validator tooling, keeping our website and documentation useful, and helping developers and users move forward.
 
-The proposed budget is approximately **USD 575 per month for three months**, paid as **32,000 native KOIN per month** at the budgeting reference of USD 0.018 per KOIN. This supports USD 325 of contributor time, USD 200 of AI development tooling, and a USD 50 infrastructure allowance. The KOIN request rounds up the calculated 31,944.44 KOIN to 32,000, equivalent to USD 576 at that reference.
+The proposed budget is approximately **USD 601.02 per month for three months**, paid as **34,000 native KOIN per month** at the budgeting reference of USD 0.018 per KOIN. This supports USD 325 of contributor time, USD 200 of AI development tooling, and a USD 76.02 infrastructure budget. The KOIN request rounds up the calculated 33,389.98 KOIN to 34,000, equivalent to USD 612 at that reference.
 
 ## About me
 
@@ -41,6 +41,7 @@ I am supporting the outstanding work of **Eder (@ederaleng)** on the Vortex brid
 - **Code review and reproducible tests.** Reviewing code, dependencies, build reproducibility, and fixes, and providing actionable findings and regression tests to support the next version.
 - **Local transfer and recovery testing.** Exercising transfers and failure scenarios in isolated development environments to help identify issues and improve reliability.
 - **Documentation and operator usability.** Helping improve instructions and supporting tools so that Eder's work is easier to review, test, and use.
+- **Validator operation and a private Koinos API.** I plan to operate one of the validators in the final Vortex bridge network and set up a dedicated private Koinos API for that validator. This adds an operational contribution alongside my support for Eder's development. The budget includes two additional Hetzner VPS instances: a CPX32 at EUR 16.65 per month for the private Koinos API and a CX23 at EUR 6.53 per month for the validator. Activation will follow the bridge's release review and operator acceptance.
 
 I plan to continue supporting the next version through scoped contributions aligned with Eder's priorities. Vortex will share the technical contribution allocation with the other projects in this proposal.
 
@@ -67,7 +68,7 @@ This proposal funds a focused maintenance commitment across existing work. My we
 
 | Work | Hours per week |
 | --- | ---: |
-| Seed infrastructure, backups, and operational checks | 1 |
+| Seed and Vortex infrastructure, backups, and operational checks | 1 |
 | Prioritized node, Vortex, or validator tooling work | 1 |
 | Website and documentation maintenance | 0.5 |
 | Community support | 0.5 |
@@ -83,7 +84,7 @@ Over the three month period, I will aim to deliver:
 4. **At least three useful website or documentation updates**, including continued preparation of docs.koinos.io, focused on accurate project information, onboarding, node operation, and recovery.
 5. **One brief update at the end of the funding period**, linking to completed work and outlining the next priorities. Progress will also remain visible through public repositories and website changes.
 
-The first month will establish the service and backup baseline and select the highest value improvement. The second will focus on the recovery rehearsal and further tooling and documentation work. The third will complete the remaining scoped contributions and share the brief closing update.
+The first month will establish the service and backup baseline, prepare the Vortex validator and its private Koinos API, and select the highest value improvement. The second will focus on the recovery rehearsal and further tooling and documentation work. The third will complete the remaining scoped contributions and share the brief closing update.
 
 Three hours per week is a bounded contribution commitment. It does not include a 24 hour incident response service or promise a full release of every project listed above.
 
@@ -93,17 +94,19 @@ Three hours per week is a bounded contribution commitment. It does not include a
 | --- | ---: |
 | Contributor time at USD 25 per hour, averaging 13 hours per month | 325 |
 | ChatGPT Pro subscription for Codex development work | 200 |
-| Hetzner hosting, blockchain storage, backup costs, and small infrastructure expenses | 50 |
-| **Monthly budget** | **575** |
-| **Three month budget** | **1,725** |
+| Existing Hetzner hosting, blockchain storage, backups, and small infrastructure allowance | 50 |
+| Vortex private Koinos API: CPX32 at EUR 16.65 per month | 18.69 |
+| Vortex validator: CX23 at EUR 6.53 per month | 7.33 |
+| **Monthly budget** | **601.02** |
+| **Three month budget** | **1,803.06** |
 
 The time calculation uses three hours per week × 52 weeks ÷ 12 months. The subscription enables research, implementation, testing, documentation, and code review; I remain responsible for reviewing and validating the resulting work.
 
-The infrastructure allowance is based on my existing Hetzner server at **EUR 14.27 per month**, with **8 vCPU, 16 GB RAM, 160 GB local disk, and a separately billed 200 GB volume**. The volume estimate is EUR 8.80 per month using the EUR 0.044 per GB rate displayed by [Hetzner](https://www.hetzner.com/cloud/block-storage/) when this budget was prepared. This gives approximately USD 25.90 per month before any additional taxes or services, at the [ECB reference rate of USD 1.1225 per EUR](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html) dated October 2, 2026. The USD 50 allowance leaves room for backup storage and related costs. It is an allowance, not a claim that the current invoice totals USD 50.
+The infrastructure allowance is based on my existing Hetzner server at **EUR 14.27 per month**, with **8 vCPU, 16 GB RAM, 160 GB local disk, and a separately billed 200 GB volume**. The volume estimate is EUR 8.80 per month using the EUR 0.044 per GB rate displayed by [Hetzner](https://www.hetzner.com/cloud/block-storage/) when this budget was prepared. This gives approximately USD 25.90 per month before any additional taxes or services, at the [ECB reference rate of USD 1.1225 per EUR](https://www.ecb.europa.eu/stats/policy_and_exchange_rates/euro_reference_exchange_rates/html/index.en.html) dated October 2, 2026. The USD 50 allowance leaves room for backup storage and related costs. It is an allowance, not a claim that the current invoice totals USD 50. The two additional Vortex VPS prices supplied for this proposal total EUR 23.18 per month, or approximately USD 26.02 at the same exchange rate. They are budgeted separately from the existing USD 50 allowance, bringing the combined infrastructure budget to USD 76.02 per month. The VPS figures are planning costs, not a claim that those services are already operating.
 
 **Proposed term:** November 1, 2026 through January 31, 2027, subject to the final KFS start and end dates.
 
-**Requested monthly payment:** 32,000 native KOIN. **Three month requested total:** 96,000 native KOIN, assuming three full monthly payments.
+**Requested monthly payment:** 34,000 native KOIN. **Three month requested total:** 102,000 native KOIN, assuming three full monthly payments.
 
 The conversion uses **USD 0.018 per KOIN** as a budgeting reference, based on the [vKOIN and USDC market on Base](https://dexscreener.com/base/0x9b61660Cb1a6920E9c912570cD210020B956F34E) observed on October 3, 2026. That is a wrapped token market price, not a guaranteed native KOIN sale price. Exchange rates, liquidity, fees, and price movement can change the realized USD amount. The KOIN figure should be refreshed before submission and will be fixed for the submitted term unless a separate proposal changes it. KFS payments depend on votes, ranking, and available fund balance, as explained in the [KFS documentation](https://kfs.koinscan.com/docs).
 

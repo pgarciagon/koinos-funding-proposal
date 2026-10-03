@@ -8,4 +8,4 @@ The proposal now has its own folder so this repository can contain future propos
 
 [All proposals and their status](README.md)
 
-This page preserves the previously shared URL. The current proposal requests 32,000 KOIN per month for three months and commits three hours per week. It remains a draft pending submission to KFS.
+This page preserves the previously shared URL. The current proposal requests 34,000 KOIN per month for three months and commits three hours per week. It remains a draft pending submission to KFS.

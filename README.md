@@ -6,7 +6,7 @@ Public proposals for Koinos infrastructure, developer tools, documentation, Vort
 
 | Proposal | Proposed funding period | Monthly request | Status |
 | --- | --- | ---: | --- |
-| [Infrastructure, documentation, and community maintenance](proposals/2026-11-infrastructure-maintenance/) | November 2026–January 2027 | 32,000 KOIN | Draft; not submitted to KFS |
+| [Infrastructure, documentation, and community maintenance](proposals/2026-11-infrastructure-maintenance/) | November 2026–January 2027 | 34,000 KOIN | Draft; not submitted to KFS |
 
 The current proposal commits three hours per week. Read the [formatted proposal](proposals/2026-11-infrastructure-maintenance/PROPOSAL_EN.md) or copy the [plain-text description](proposals/2026-11-infrastructure-maintenance/SUBMISSION_EN.txt) for the KFS form. The description includes a direct URL to the formatted proposal.
 
