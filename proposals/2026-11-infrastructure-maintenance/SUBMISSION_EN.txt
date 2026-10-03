@@ -15,6 +15,8 @@ You can find me on the Koinos team page (https://koinos.io/team), where I am lis
 
 I maintain koinos.io, operate seed.koinosfoundation.org, and manage regular blockchain backups. I am also preparing updated documentation for docs.koinos.io, helping users, developers, and node operators find clear, practical guidance. These responsibilities connect the public face of Koinos with the infrastructure people need to join and use the network.
 
+So far, I have carried out the work described here without any remuneration. I believe it is time to use the KFS to recognise and incentivise the time that community members invest in Koinos. Supporting these contributions can help turn volunteer effort into a sustainable, ongoing commitment. I also encourage other community members who invest their time and skills in the ecosystem to submit their own funding proposals.
+
 WORK I HAVE CONTRIBUTED
 
 My contributions span several parts of the ecosystem. The following examples distinguish development, maintenance, reviews, and community work.
