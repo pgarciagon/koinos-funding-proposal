@@ -45,3 +45,11 @@ For the November 2026 proposal, the summary links to release `proposal-2026-11-v
 GitHub release immutability is enabled for this repository. Publish each release as a draft first, attach and verify all files, then publish it. The published tag and assets are protected from replacement. The release title and notes remain editable, so treat the attached files and the commit recorded in the manifest as the authoritative proposal. Repository availability is separate from content immutability.
 
 Keep a local copy of the release files. Later corrections must use a new version and release; retain the version already referenced by a submitted KFS proposal. A frozen GitHub release does not prove KFS submission or funding.
+
+## End dates and the January payment correction
+
+On October 8, 2026, read-only mainnet calls confirmed proposal #9 ends at `2027-01-31T00:00:00Z`, while the scheduled January payment is `2027-01-31T12:00:00Z`. The inspected `pay_projects()` source removes expired projects before selecting payments. An end date must be after the last intended payment event; for November 2026 through January 2027, use `2027-02-01T00:00:00Z`.
+
+The deployed KFS ABI exposes no project-edit method. The user requested a replacement with the same scope and budget, recorded in `proposals/2026-11-infrastructure-maintenance-corrected/`. It uses release `proposal-2026-11-v1.0.1`, leaves the original frozen reference intact, and identifies #9 as the proposal it replaces. This is a full three-month replacement, not an additional January-only request.
+
+After confirmed submission, voters must explicitly move their support from #9 to the replacement. Votes do not migrate automatically and overlapping support can fund the same work twice. The correction's observed submission fee was 2.7264384 KOIN, using the then-current project counts and fee denominator; verify the form's actual fee before signing. Completing the form and publishing the release do not prove a replacement was submitted.

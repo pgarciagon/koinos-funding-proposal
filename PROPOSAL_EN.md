@@ -2,10 +2,10 @@
 
 The proposal now has its own folder so this repository can contain future proposals.
 
-**[Read the full proposal](proposals/2026-11-infrastructure-maintenance/PROPOSAL_EN.md)**
+**[Read the corrected proposal](proposals/2026-11-infrastructure-maintenance-corrected/PROPOSAL_EN.md)**
 
-[Plain-text version for the KFS description field](proposals/2026-11-infrastructure-maintenance/SUBMISSION_EN.txt)
+[Plain-text version for the KFS description field](proposals/2026-11-infrastructure-maintenance-corrected/SUBMISSION_EN.txt)
 
 [All proposals and their status](README.md)
 
-This page preserves the previously shared URL. The current proposal requests 34,000 KOIN per month for three months and commits three hours per week. It remains a draft pending submission to KFS.
+This page preserves the previously shared URL. The replacement requests 34,000 KOIN per month for November 2026 through January 2027 and commits three hours per week. Its end date is February 1, 2027 so that the January payment event is included. The original is [KFS proposal #9](https://kfs.koinscan.com/projects/9); the replacement is prepared and awaits a signed submission.

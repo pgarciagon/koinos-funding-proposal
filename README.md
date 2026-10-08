@@ -6,9 +6,10 @@ Public proposals for Koinos infrastructure, developer tools, documentation, Vort
 
 | Proposal | Proposed funding period | Monthly request | Status |
 | --- | --- | ---: | --- |
-| [Infrastructure, documentation, and community maintenance](proposals/2026-11-infrastructure-maintenance/) | November 2026–January 2027 | 34,000 KOIN | Draft; not submitted to KFS |
+| [Infrastructure, documentation, and community maintenance — corrected end date](proposals/2026-11-infrastructure-maintenance-corrected/) | November 2026–January 2027; ends February 1 | 34,000 KOIN | Replacement prepared; not submitted to KFS |
+| [Original infrastructure proposal](proposals/2026-11-infrastructure-maintenance/) | November 2026–January 2027; ends January 31 | 34,000 KOIN | [Submitted as #9](https://kfs.koinscan.com/projects/9); end-date correction prepared |
 
-The current proposal commits three hours per week. Read the [formatted proposal](proposals/2026-11-infrastructure-maintenance/PROPOSAL_EN.md) or copy the [plain-text description](proposals/2026-11-infrastructure-maintenance/SUBMISSION_EN.txt) for the KFS form. The description includes a URL to the frozen [proposal-2026-11-v1.0.0](https://github.com/pgarciagon/koinos-funding-proposal/releases/tag/proposal-2026-11-v1.0.0) release, whose attached proposal files are the fixed reference.
+The corrected proposal commits three hours per week with the same scope and budget as #9. Read the [formatted proposal](proposals/2026-11-infrastructure-maintenance-corrected/PROPOSAL_EN.md) or copy the [plain-text description](proposals/2026-11-infrastructure-maintenance-corrected/SUBMISSION_EN.txt). Its reference is [proposal-2026-11-v1.0.1](https://github.com/pgarciagon/koinos-funding-proposal/releases/tag/proposal-2026-11-v1.0.1). The original [v1.0.0 release](https://github.com/pgarciagon/koinos-funding-proposal/releases/tag/proposal-2026-11-v1.0.0) remains available for #9. After the replacement is submitted, votes must be moved explicitly; the same work should be funded once.
 
 ## Adding a future proposal
 

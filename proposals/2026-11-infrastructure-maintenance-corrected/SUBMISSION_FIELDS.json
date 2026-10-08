@@ -1,0 +1,23 @@
+{
+  "status": "prepared_not_submitted",
+  "replaces_kfs_project_id": 9,
+  "related_superseded_project_id": 8,
+  "title": "Koinos Infrastructure Documentation and Community Maintenance",
+  "description": "Replaces #9; please move votes to this corrected proposal.\n\nI am Pablo Garcia (@pgarcgo). I maintain koinos.io, seed.koinosfoundation.org and blockchain backups; prepare docs.koinos.io; develop node tools; and manage official Spanish X/Twitter and Telegram channels. My contributions so far have been unpaid.\n\nI request 34,000 KOIN/month for Nov 2026-Jan 2027: 3 hours/week at USD 25/hour, USD 200/month for Codex, and USD 76.02/month for infrastructure. Total budget: USD 601.02/month, using USD 0.018/KOIN as a reference.\n\nFor Vortex, I support @ederaleng, its maintainer, public domain owner and final public client lead. I plan to run one validator and its private Koinos API (CPX32 EUR 16.65 + CX23 EUR 6.53/month), subject to release readiness. I encourage @ederaleng and other contributors to seek KFS funding.\n\nFull proposal, deliverables, budget and references:\nhttps://github.com/pgarciagon/koinos-funding-proposal/releases/tag/proposal-2026-11-v1.0.1\n\nOne brief closing update.",
+  "monthly_payment_koin": "34000",
+  "monthly_payment_base_units": "3400000000000",
+  "start_date_utc": "2026-11-01T00:00:00Z",
+  "end_date_utc": "2027-02-01T00:00:00Z",
+  "start_date_ms": "1793491200000",
+  "end_date_ms": "1801440000000",
+  "beneficiary": "1DcFx8AH1ZMMpLSg7QiZjvqcCNKtxpQ87s",
+  "expected_payment_dates_utc": [
+    "2026-11-30T12:00:00Z",
+    "2026-12-31T12:00:00Z",
+    "2027-01-31T12:00:00Z"
+  ],
+  "expected_total_koin_if_fully_paid": "102000",
+  "submission_fee_observed_koin": "2.7264384",
+  "fee_checked_at": "2026-10-08T16:19:30.709Z",
+  "frozen_reference_url": "https://github.com/pgarciagon/koinos-funding-proposal/releases/tag/proposal-2026-11-v1.0.1"
+}
