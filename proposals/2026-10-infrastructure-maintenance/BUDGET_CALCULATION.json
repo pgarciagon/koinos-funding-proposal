@@ -1,0 +1,69 @@
+{
+  "start_date_utc": "2026-10-15T00:00:00Z",
+  "end_date_exclusive_utc": "2027-02-01T00:00:00Z",
+  "calendar_days": 109,
+  "hours_per_week": 3,
+  "hourly_rate_usd": 25,
+  "planned_hours": 46.71428571,
+  "contributor_time_usd": 1167.86,
+  "codex_monthly_usd": 200,
+  "codex_months": 4,
+  "codex_total_usd": 800,
+  "infrastructure_monthly_usd": 76.02,
+  "infrastructure_months": 4,
+  "infrastructure_total_usd": 304.08,
+  "total_expense_budget_usd": 2271.94,
+  "original_budgeting_reference_usd_per_koin": 0.018,
+  "calculated_total_koin": 126218.73,
+  "calculated_koin_per_payment": 31554.68,
+  "payment_count": 4,
+  "periods": [
+    {
+      "period": "October 15–31, 2026",
+      "days": 17,
+      "planned_hours": 7.28571429,
+      "contributor_time_usd": 182.14,
+      "codex_usd": 200,
+      "infrastructure_usd": 76.02,
+      "total_usd": 458.16
+    },
+    {
+      "period": "November 2026",
+      "days": 30,
+      "planned_hours": 12.85714286,
+      "contributor_time_usd": 321.43,
+      "codex_usd": 200,
+      "infrastructure_usd": 76.02,
+      "total_usd": 597.45
+    },
+    {
+      "period": "December 2026",
+      "days": 31,
+      "planned_hours": 13.28571429,
+      "contributor_time_usd": 332.14,
+      "codex_usd": 200,
+      "infrastructure_usd": 76.02,
+      "total_usd": 608.16
+    },
+    {
+      "period": "January 2027",
+      "days": 31,
+      "planned_hours": 13.28571429,
+      "contributor_time_usd": 332.14,
+      "codex_usd": 200,
+      "infrastructure_usd": 76.02,
+      "total_usd": 608.16
+    }
+  ],
+  "notes": [
+    "Hours are planned proportionally at three hours per seven days, not reported work already performed.",
+    "Four full monthly subscriptions/hosting allocations are budgeted because October through January incur monthly service costs.",
+    "The KOIN conversion preserves the original proposal reference; it is not a current market-price assertion.",
+    "KFS pays a fixed requested monthly amount and does not prorate a partial first month.",
+    "Payment remains subject to ranking and available budget."
+  ],
+  "requested_monthly_payment_koin": 34000,
+  "requested_total_koin_if_fully_paid": 136000,
+  "request_reference_value_usd": 2448,
+  "allowance_above_expense_estimate_usd": 176.06
+}

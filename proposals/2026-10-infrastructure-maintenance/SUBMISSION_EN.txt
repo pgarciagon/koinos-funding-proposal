@@ -1,0 +1,12 @@
+Replaces #9; please move votes to this corrected proposal.
+
+I am Pablo Garcia (@pgarcgo). I maintain koinos.io, seed.koinosfoundation.org and blockchain backups; prepare docs.koinos.io; develop node tools; and manage official Spanish X/Twitter and Telegram channels. My contributions so far have been unpaid.
+
+I request 34,000 KOIN/month for Oct 2026-Jan 2027: 3 hours/week at USD 25/hour, USD 200/month for Codex, and USD 76.02/month for infrastructure. Term budget: USD 2,271.94; 46.71 planned hours. KOIN reference: USD 0.018.
+
+For Vortex, I support @ederaleng, its maintainer, public domain owner and final public client lead. I plan to run one validator and its private Koinos API (CPX32 EUR 16.65 + CX23 EUR 6.53/month), subject to release readiness. I encourage @ederaleng and other contributors to seek KFS funding.
+
+Full proposal, deliverables, budget and references:
+https://github.com/pgarciagon/koinos-funding-proposal/releases/tag/proposal-2026-10-v1.0.2
+
+One brief closing update.

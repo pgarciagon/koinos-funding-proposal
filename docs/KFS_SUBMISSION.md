@@ -21,7 +21,7 @@ The earlier full description contained 15,563 characters excluding its trailing 
 
 The deployed frontend fund helper in chunk `189-66586d9a3322fc25.js` uses contract `1A5BmMqV5jN5zBrdkhQumAfDZBzXLPBeN9` and `submit_project` entry point `0x3baabbbd`. A read-only `chain.read_contract` check against the public RPC was attempted and returned HTTP 403, so source-to-deployed-bytecode equivalence and an on-chain rejection were not independently confirmed. No signed transaction or submission was sent by Codex.
 
-Use an ASCII summary with room below 1,000 characters, including all URLs and line breaks. The current description is 922 characters excluding its trailing newline. Keep the full proposal in GitHub and link to it from the summary. Also check valid dates, beneficiary, current required submission fee, token-transfer authorization, balance, and Mana in the wallet; those are separate from the text limit.
+Use an ASCII summary with room below 1,000 characters, including all URLs and line breaks. The original local description was 922 characters excluding its trailing newline; later revisions have their own checked lengths recorded in their folder README. Keep the full proposal in GitHub and link to it from the summary. Also check valid dates, beneficiary, current required submission fee, token-transfer authorization, balance, and Mana in the wallet; those are separate from the text limit.
 
 ## Inspected deployed assets
 
@@ -53,3 +53,13 @@ On October 8, 2026, read-only mainnet calls confirmed proposal #9 ends at `2027-
 The deployed KFS ABI exposes no project-edit method. The user requested a replacement with the same scope and budget, recorded in `proposals/2026-11-infrastructure-maintenance-corrected/`. It uses release `proposal-2026-11-v1.0.1`, leaves the original frozen reference intact, and identifies #9 as the proposal it replaces. This is a full three-month replacement, not an additional January-only request.
 
 After confirmed submission, voters must explicitly move their support from #9 to the replacement. Votes do not migrate automatically and overlapping support can fund the same work twice. The correction's observed submission fee was 2.7264384 KOIN, using the then-current project counts and fee denominator; verify the form's actual fee before signing. Completing the form and publishing the release do not prove a replacement was submitted.
+
+## October 15 extension and calendar-based hours
+
+The user subsequently extended the replacement's start to October 15, 2026. The canonical prepared revision is now `proposals/2026-10-infrastructure-maintenance/`, frozen as `proposal-2026-10-v1.0.2`. The earlier immutable releases remain unchanged.
+
+October 15 through February 1 exclusive is 109 days. At three hours weekly, the time allocation is 46.71428571 planned hours, costing USD 1,167.86 at USD 25/hour. Four monthly subscription and hosting charges add USD 1,104.08, making the expense estimate USD 2,271.94. The 34,000 KOIN monthly request is preserved; four eligible payment events make the intended total 136,000 KOIN. The original USD 0.018/KOIN reference is historical. At that reference the request equals USD 2,448, including a USD 176.06 allowance above estimated expenses for cost or conversion changes.
+
+KFS does not prorate the partial October payment. The eligible scheduled events are October 31, November 30, December 31, and January 31 at 12:00 UTC. Read-only mainnet metadata on October 8 gave an observed submission fee of 3.2302368 KOIN for these dates; the fee can change with the contract's project counts. Recheck before signing.
+
+This supersedes the earlier November-start preparation. It does not edit or cancel the published #9, automatically transfer votes, or prove a replacement transaction was submitted.

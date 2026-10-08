@@ -2,7 +2,7 @@
 
 **Author:** Pablo Garcia (@pgarcgo; GitHub: pgarciagon)
 
-**Status:** Prepared for a new KFS submission; no replacement transaction has been signed or broadcast.
+**Status:** Superseded preparation; this revision was not submitted to KFS. The user extended the term to October 15 and recalculated planned hours in the [latest revision](../2026-10-infrastructure-maintenance/). Its immutable v1.0.1 release remains available as a historical reference.
 
 This version replaces [proposal #9](https://kfs.koinscan.com/projects/9) to include the January payment. It retains the same work, budget, beneficiary, and three-hour weekly commitment. Please move votes from #9 to the replacement after submission; support does not transfer automatically, and the same work should be funded once.
 

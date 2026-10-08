@@ -6,10 +6,13 @@ Public proposals for Koinos infrastructure, developer tools, documentation, Vort
 
 | Proposal | Proposed funding period | Monthly request | Status |
 | --- | --- | ---: | --- |
-| [Infrastructure, documentation, and community maintenance — corrected end date](proposals/2026-11-infrastructure-maintenance-corrected/) | November 2026–January 2027; ends February 1 | 34,000 KOIN | Replacement prepared; not submitted to KFS |
-| [Original infrastructure proposal](proposals/2026-11-infrastructure-maintenance/) | November 2026–January 2027; ends January 31 | 34,000 KOIN | [Submitted as #9](https://kfs.koinscan.com/projects/9); end-date correction prepared |
+| [Infrastructure, documentation, and community maintenance — extended period](proposals/2026-10-infrastructure-maintenance/) | October 15, 2026–January 31, 2027; ends February 1 | 34,000 KOIN | Replacement prepared; not submitted to KFS |
+| [Earlier corrected end-date revision](proposals/2026-11-infrastructure-maintenance-corrected/) | November 2026–January 2027; ends February 1 | 34,000 KOIN | Superseded preparation; not submitted to KFS |
+| [Original infrastructure proposal](proposals/2026-11-infrastructure-maintenance/) | November 2026–January 2027; ends January 31 | 34,000 KOIN | [Submitted as #9](https://kfs.koinscan.com/projects/9); replacement prepared |
 
-The corrected proposal commits three hours per week with the same scope and budget as #9. Read the [formatted proposal](proposals/2026-11-infrastructure-maintenance-corrected/PROPOSAL_EN.md) or copy the [plain-text description](proposals/2026-11-infrastructure-maintenance-corrected/SUBMISSION_EN.txt). Its reference is [proposal-2026-11-v1.0.1](https://github.com/pgarciagon/koinos-funding-proposal/releases/tag/proposal-2026-11-v1.0.1). The original [v1.0.0 release](https://github.com/pgarciagon/koinos-funding-proposal/releases/tag/proposal-2026-11-v1.0.0) remains available for #9. After the replacement is submitted, votes must be moved explicitly; the same work should be funded once.
+The latest replacement retains three hours per week and the same contribution scope as #9. It starts on October 15 and ends on February 1, including four scheduled payments: **136,000 KOIN total**, compared with the original intended 102,000 KOIN. The expense estimate uses the actual 109-day period: **46.71 planned hours and USD 2,271.94**. See the [calendar budget](proposals/2026-10-infrastructure-maintenance/BUDGET.md).
+
+Read the [formatted proposal](proposals/2026-10-infrastructure-maintenance/PROPOSAL_EN.md) or copy the [plain-text description](proposals/2026-10-infrastructure-maintenance/SUBMISSION_EN.txt). Its frozen reference is [proposal-2026-10-v1.0.2](https://github.com/pgarciagon/koinos-funding-proposal/releases/tag/proposal-2026-10-v1.0.2). The [v1.0.1 release](https://github.com/pgarciagon/koinos-funding-proposal/releases/tag/proposal-2026-11-v1.0.1) preserves the earlier November-start preparation; the original [v1.0.0 release](https://github.com/pgarciagon/koinos-funding-proposal/releases/tag/proposal-2026-11-v1.0.0) remains available for #9. After the replacement is submitted, votes must be moved explicitly; the same work should be funded once.
 
 ## Adding a future proposal
 
